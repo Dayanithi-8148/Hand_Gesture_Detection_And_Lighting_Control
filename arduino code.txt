@@ -1,0 +1,38 @@
+int ledPin = 13;  
+int ledPin = 12;
+int ledPin = 8;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char command = Serial.read();
+    if (command == '1') {
+      digitalWrite(ledPin, HIGH); 
+    } else if (command == '2') {
+      digitalWrite(ledPin, LOW);  
+
+    }
+    if (command == '3') {
+      digitalWrite(ledPin, HIGH); 
+    } else if (command == '4') {
+      digitalWrite(ledPin, LOW);  
+
+    }
+    if (command == '5') {
+      digitalWrite(ledPin, HIGH); 
+    } else if (command == '6') {
+      digitalWrite(ledPin, LOW);  
+
+    }
+    if (command == '7') {
+      digitalWrite(ledPin, HIGH); 
+    } else if (command == '8') {
+      digitalWrite(ledPin, LOW);  
+
+    }
+  }
+}
