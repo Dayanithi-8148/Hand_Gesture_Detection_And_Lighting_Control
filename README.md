@@ -22,6 +22,6 @@ Offers a user-friendly solution benefiting accessibility, energy efficiency, and
 
 Future Scope
 
-    1. Advanced Gesture Recognition: Improve accuracy and range of gestures.
-    2. Commercial Applications: Explore uses in retail, museums, and entertainment.
-    3. Cost Reduction: Optimize hardware and software for affordability.
+1. Advanced Gesture Recognition: Improve accuracy and range of gestures.
+2. Commercial Applications: Explore uses in retail, museums, and entertainment.
+3. Cost Reduction: Optimize hardware and software for affordability.
